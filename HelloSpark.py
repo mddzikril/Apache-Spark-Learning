@@ -23,9 +23,10 @@ if __name__ == "__main__":
 
     count_df = count_by_country(partitioned_survey_df)
 
+
     logger.info(count_df.collect())
 
-    input("\n") #ensure program does not end but use this only for debugging
+    input("Insert") #ensure program does not end but use this only for debugging
     #can use to check Spark UI
     logger.info("Finished Hello Spark")
 
