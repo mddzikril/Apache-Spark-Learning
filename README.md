@@ -1,4 +1,7 @@
-# This is a documentation of my journey in learning Apache Spark.
+# Apache Spark Learning
+
+## Summary
+This is a documentation of my journey in learning Apache Spark
 
 ## Tech Stack Used
 1. Apache Spark
