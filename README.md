@@ -1,7 +1,10 @@
 # Apache Spark Learning
+This is a documentations of my journey in learning Apache Spark
 
 ## Summary
-This is a documentation of my journey in learning Apache Spark
+- Learned how to create and configure Spark applications
+- Tried out Spark's DataFrame APIs and its methods
+- Conducted Unit Testing
 
 ## Tech Stack Used
 1. Apache Spark
