@@ -5,6 +5,14 @@ from lib.logger import Log4J
 from lib.utils import get_spark_app_config, load_survey_df, count_by_country
 
 if __name__ == "__main__":
+    """
+    Spark conf can also be created this way but this is considered hard coding:
+    conf = SparkConf()
+    conf.setMaster("local[3]").setAppName("HelloSpark")
+    spark = SparkSession.builder \
+        .config(conf=conf) \
+        .getOrCreate()
+    """
     conf = get_spark_app_config()
     spark = SparkSession.builder \
         .config(conf=conf) \
