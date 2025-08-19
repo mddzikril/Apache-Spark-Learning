@@ -1,1 +1,1 @@
-25/08/19 15:27:33 INFO DataSinkDemo: Num Partitions before: 2
+25/08/19 16:37:08 INFO SparkSQLTable: [[flight_data_tbl, spark_catalog, [airline_db], null, MANAGED, false]]
