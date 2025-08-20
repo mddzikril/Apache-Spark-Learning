@@ -2,6 +2,7 @@
 import configparser
 
 from pyspark import SparkConf
+from pyspark.sql.functions import *
 
 
 def get_spark_app_config():
@@ -26,3 +27,7 @@ def count_by_country(survey_df):
         .select("Age", "Gender", "Country", "State") \
         .groupBy("Country") \
         .count()
+
+
+def to_date_df(df, fmt, fld):
+    return df.withColumn(fld, to_date(col(fld), fmt))
