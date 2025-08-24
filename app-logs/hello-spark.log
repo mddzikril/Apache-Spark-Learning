@@ -1,0 +1,3 @@
+25/08/24 13:47:02 INFO UDFTesting: Catalog Entry:
+25/08/24 13:47:04 INFO UDFTesting: Catalog Entry 2:
+25/08/24 13:47:04 INFO UDFTesting: [parse_gender_udf_sql, null, null, N/A., org.apache.spark.sql.UDFRegistration$$Lambda$3511/0x0000000801bf0ac8, true]
