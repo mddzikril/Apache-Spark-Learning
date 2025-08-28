@@ -1,12 +1,19 @@
-# Apache Spark Learning
-This is a documentations of my journey in learning Apache Spark
+# Apache Spark Learning Journey
 
-## Summary
-- Learned how to create and configure Spark applications
-- Tried out Spark's DataFrame APIs and its methods
-- Conducted Unit Testing
+This repository documents my learning process and experiments with **Apache Spark**, focusing on understanding distributed data processing, Spark APIs, and best practices in building scalable applications.
 
-## Tech Stack Used
-1. Apache Spark
-2. Python Programming Language and its packages
-3. Log4J for application logging in Spark
+---
+
+## Summary of Learning
+- Hands-on experience in creating and configuring Spark applications.  
+- Simulated a multi-core cluster locally using `local[3]` configuration.  
+- Explored and practiced with **Spark DataFrame APIs** and their transformations/actions.  
+- Implemented **Unit Testing** for Spark jobs to ensure correctness and reliability.  
+- Learned the basics of Spark’s **logging and debugging** using Log4J.  
+
+---
+
+## Tech Stack
+1. **Apache Spark** – Core distributed data processing framework  
+2. **Python (PySpark)** – Primary programming language with supporting packages  
+3. **Log4J** – Application logging and monitoring in Spark  
